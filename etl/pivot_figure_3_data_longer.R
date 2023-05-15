@@ -1,0 +1,13 @@
+library(tidyverse)
+library(here)
+library(janitor)
+
+
+gao_data <- read_csv(here("data", "raw", "gao_figure_3_data.csv")) %>% 
+  replace(is.na(.), 0) %>% 
+  clean_names() %>% 
+  pivot_longer(cols = c("concurred_partially_concurred", "nonconcurred", "placed_on_hold_deferred", "under_review"), names_to = "status", values_to = "number") %>% 
+  group_by(year, .drop = FALSE) %>% 
+  summarize(total = sum(number)) 
+  
+write.csv(gao_data, "data/processed/gao_data_clean_yearly.csv")
