@@ -20,6 +20,7 @@ build
 
 scratch/
 data/raw/*.geojson
+data/raw/tl_2020_us_county.*
 data/raw/cb_2018_us_state_500k.*
 data/processed/*.geojson
 exports/
