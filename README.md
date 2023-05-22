@@ -1,6 +1,6 @@
 # Analysis of wildfire exceptional event submissions and increasing wildfires
 
-This repository contains data and findings that are part of an ongoing collaboration between MuckRock and the California Newsroom on the increasing impact of wildfire smoke on Californians' health. The data and analysis in this repository underpin visualizations and findings in story *As Wildfire Smoke Worsens Public Health, Government Watchdog Calls EPA Response 'Ad Hoc'*.
+This repository contains data and findings that are part of an ongoing collaboration between MuckRock and the California Newsroom on the increasing impact of wildfire smoke on Californians' health. The data and analysis in this repository underpin visualizations and findings in the story *As Wildfire Smoke Worsens Public Health, Government Watchdog Calls EPA Response 'Ad Hoc'*.
 
 You can find analysis for earlier work in the series in [`california-wildfire-pollution`](https://github.com/MuckRock/california-wildfire-pollution) and a full catalogue of all the data and analysis driving the investigations of MuckRock's news team in [`news-team`](https://github.com/MuckRock/news-team).
 
