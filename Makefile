@@ -53,4 +53,7 @@ exports/all-years.geojson: exports
 		--setting sql_time_limit_ms 5000 \
 		--setting max_returned_rows 500000 > $@
 
+exports/fires.pmtiles: exports/all-years.geojson
+	tippecanoe -zg -o $@ --drop-densest-as-needed -l all-years $^
+
 export: exports/all-years.geojson
